@@ -40,4 +40,4 @@ class ModelTests(TestCase):
         )
 
         self.assertTrue(user.is_superuser, True)
-        self.assertTrue(user.is_stuff, True)
+        self.assertTrue(user.is_staff, True)
